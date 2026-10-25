@@ -1,0 +1,6 @@
+#!/bin/sh
+APP_NAME="Gradle"
+APP_BASE_NAME=asename ""
+DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+CLASSPATH=/gradle/wrapper/gradle-wrapper.jar
+exec "" -classpath "" org.gradle.wrapper.GradleWrapperMain "$@"
